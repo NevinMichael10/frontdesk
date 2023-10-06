@@ -1,0 +1,210 @@
+@import "custom-variables";
+
+.region-topbar{
+  background-color: yellow;
+}
+
+.mainScrollCont{
+  background-image: url("./images/AbstractSyncBg.jpg");
+  // background-size:auto;
+  // background-color: red
+}
+
+//Top navigation bar
+.topbar-content{
+
+  background-color: #80acd5;
+  border-radius: 3em;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+
+//Outer full background image
+.himage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-image: url("./images/AbstractSyncBg.jpg");
+  object-fit: fill;
+  height: 650px;
+}
+
+// Background image inside Outer full background image
+.secbg{
+  position: absolute;
+  z-index: 0;
+  background-color: #ffffff46;
+  height: 600px;
+  width:  1400px;
+  border-radius: 2em;
+  box-shadow: 0 0 30px rgb(224, 224, 224);
+  margin: 20px;
+}
+
+//front desk headingtext
+.frontdesk {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 10px;
+  font-size: 60px;
+  //text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(75, 68, 68);
+  outline: none;
+  text-align: center;
+}
+
+.frontdesk:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 3px;
+}
+
+.textcontainer{
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 150px;
+  width: 500px;
+  height: 150px;
+}
+
+.descr{
+  position: absolute;
+  font-size: 20px;
+  //text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(75, 68, 68);
+  outline: none;
+  text-align: center;
+  display: inline-block;
+  padding: 0.5vw 1vw;
+}
+
+.WelText {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+  font-size: 30px;
+  //text-transform: uppercase;
+  font-family: 'Tahoma', Geneva, Verdana,  sans-serif;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(75, 68, 68);
+  outline: none;
+  text-align: center;
+}
+
+.addcustomercontainer{
+  background-position: absolute;
+  background-image: url("./images/customer2.jpg");
+  background-size: cover;
+  box-shadow: 0 0 30px rgb(161, 161, 161);
+  margin-top: 350px;
+  margin-left: 190px;
+  height: 200px;
+  width: 200px;
+  border-radius: 2em;
+}
+
+.customerbtn {
+  height: 100%;
+  width: 100%;
+  background: #80acd5;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(75, 68, 68);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variation-settings: "wght" 311;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: middle;
+  border-radius: .7em;
+  border-style: none;
+  box-shadow: 0 0 30px rgb(161, 161, 161);
+}
+
+.customerbtn:hover,
+.customerbtn:active {
+  background-image: url("./images/customer2.jpg");
+  background-size: cover;
+  color: #000000;
+}
+
+.customerbtn::before {
+  color: #000000;
+}
+
+.customerbtn:active {
+  opacity: .5;
+}
+
+
+
+.addbillcontainer{
+  background-position: absolute;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  margin-left: 440px;
+  height: 200px;
+  width: 200px;
+}
+
+.billbtn {
+  height: 100%;
+  width: 100%;
+  background: #80acd5;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(75, 68, 68);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variation-settings: "wght" 311;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  touch-action: manipulation;
+  vertical-align: middle;
+  border-radius: .7em;
+  border-style: none;
+  box-shadow: 0 0 30px rgb(161, 161, 161);
+}
+
+.billbtn:hover,
+.billbtn:active {
+  background-image: url("./images/bill.jpg");
+  background-size: cover;
+  color: #000000;
+}
+
+.billbtn::before {
+  color: #000000;
+}
+
+.billbtn:active {
+  opacity: .5;
+}
+
+
+
+.charimgcont{
+  position: absolute;
+  background-image: url("./images/homecharacter.jpg");
+   display: flex;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 550px;
+   width: 500px ;
+   left: 870px;
+   bottom: 25px;
+  z-index: 2;
+  border-radius: 20px;
+
+}
+

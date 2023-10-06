@@ -1,0 +1,24 @@
+@import './custom-variables';
+
+.DataPlaceholderContainer{
+    position: absolute;
+    height: 505px;
+    width: 810px;
+    bottom: 25px;
+    left: 28px;
+}
+
+.scrollContNewEdit{
+    position: relative;
+    height: 505px;
+    border-radius: 2em;
+    //overflow: hidden;
+}
+
+.neweditgrid {
+  height: 505px;
+}
+
+.SaveButtonGrid {
+  margin-top: 20px;
+}

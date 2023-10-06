@@ -1,0 +1,17 @@
+@import './custom-variables';
+
+.addrimgcont{
+    position: absolute;
+    background-image: url("./images/location.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 500px ;
+    left: 870px;
+    bottom: 25px;
+    z-index: 3;
+    border-radius: 20px;
+}

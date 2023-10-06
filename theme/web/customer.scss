@@ -1,0 +1,52 @@
+@import './custom-variables';
+
+.header {
+  position: absolute;
+  margin-left: 260px;
+  font-size: 45px;
+  //text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(75, 68, 68);
+  outline: none;
+  text-align: center;
+}
+
+.header:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 2px;
+}
+
+.custimgcont{
+     position: absolute;
+  background-image: url("./images/customer2.jpg");
+   display: flex;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 550px;
+   width: 500px ;
+   left: 870px;
+   bottom: 25px;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.DataPlaceholderContainer1{
+    position: absolute;
+    height: 505px;
+    width: 810px;
+    bottom: 25px;
+    left: 28px;
+}
+
+.OverviewScrollCont{
+  position: relative;
+  height: 505px;
+}
+
+.custOverviewGrid{
+ height: 505px;
+}
+

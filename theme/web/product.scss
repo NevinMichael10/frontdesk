@@ -1,0 +1,48 @@
+@import './custom-variables';
+
+.proimgcont{
+    position: absolute;
+    background-image: url("./images/pro2.jpg");
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 500px ;
+    left: 870px;
+    bottom: 25px;
+    z-index: 3;
+    border-radius: 20px;
+};
+
+.proDynamicImg{
+    width: 200px;
+    height:250px;
+    // background-color: red;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(224, 224, 224);
+};
+
+.proimgparent{
+    //background-color: red;  
+    //box-shadow: 0 0 30px rgb(224, 224, 224);
+    width: 250px;
+    height:250px;
+
+};
+
+.proSearchParent{
+    height: auto;
+    width: auto;
+    // background-color :red;
+    box-shadow: 0 0 20px rgba(209, 209, 209, 0.753);
+
+    border-radius: 20px;
+};
+
+.searchField input {
+    background-color: rgba(184, 209, 255, 0.205);
+    border-color: rgba(184, 209, 255, 0.205);
+    border-radius: 2em;
+}
+

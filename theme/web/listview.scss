@@ -1,0 +1,131 @@
+@import './custom-variables';
+
+// .addresslistview{
+//     background-color: "yellow";
+//     /*re-add some padding, colours, borders in case you want that etc*/
+//     // Clear search button (overrides load more button stying)
+//     .mx-button.mx-listview-clear-button {
+//         /* Styles here */
+//     }
+//     .mx-button {
+//         /* Load more button */
+//     }
+//     .mx-listview-list {
+//         background-color: rgb(253, 0, 0);
+
+//     }
+//     .mx-listview-item {
+//         background-color: rgb(39, 27, 211);
+//             /*re-add some padding, colours, borders in case you want that etc*/
+//             /*the lines below should overwrite the form-controls in your listview to have no styling*/
+//         .form-control, .form-disabled p, .form-control-static{
+//                 background-color: rgb(68, 255, 11);
+//                 border: none; 
+//             }
+        
+//     }
+// }
+
+
+.addresslistview > ul > li {
+    background-color: #ffffff00;
+    border-radius: 1em; 
+    box-shadow: 0 0 30px rgb(224, 224, 224) !important;
+    border-color: transparent;
+    margin-bottom: 20px;    
+}   
+
+
+.addresslistview > ul li:hover {
+    background-color: #ffffffb9 !important;
+    border-radius: 1em;
+    box-shadow: 0 0 30px rgb(224, 224, 224) !important;
+
+}     
+
+.addresslistview > ul li:active {
+    background-color: #ff6767b9 !important;
+    border-radius: 1em;
+     box-shadow: 0 0 30px rgb(224, 224, 224) !important;;
+
+}  
+.addresslistview > ul li:focus {
+    background-color: #ff92d273 !important;
+    border-radius: 1em;
+    box-shadow: 0 0 30px rgb(224, 224, 224) !important;
+}
+
+
+//load more button
+.addresslistview{
+    .mx-button {
+        
+background-color: transparent;
+box-shadow: 0 0 20px rgba(151, 151, 151, 0.801) !important;
+border-radius: 1em;
+border-color: transparent;
+}
+.mx-button:hover {
+        
+background-color: rgba(40, 131, 216, 0.603);
+box-shadow: 0 0 20px rgba(151, 151, 151, 0.801) !important;
+border-radius: 1em;
+border-color: transparent;
+}
+
+};
+
+.productlistview {
+    
+    margin-top: 20px;    
+} 
+
+.productlistview > ul > li {
+    background-color: #ffffff00;
+    border-radius: 1em; 
+    box-shadow: 0 0 30px rgb(224, 224, 224) !important;
+    border-color: transparent;
+    margin-bottom: 20px;    
+}   
+
+
+.productlistview > ul li:hover {
+    background-color: #ffffffb9 !important;
+    border-radius: 1em;
+    box-shadow: 0 0 30px rgb(224, 224, 224) !important;
+
+}     
+
+.productlistview > ul li:active {
+    background-color: #ff6767b9 !important;
+    border-radius: 1em;
+     box-shadow: 0 0 30px rgb(224, 224, 224) !important;;
+
+}  
+.productlistview > ul li:focus {
+    background-color: #ff92d273 !important;
+    border-radius: 1em;
+    box-shadow: 0 0 30px rgb(224, 224, 224) !important;
+}
+
+
+//load more button
+.productlistview{
+    .mx-button {
+        
+background-color: transparent;
+box-shadow: 0 0 20px rgba(151, 151, 151, 0.801) !important;
+border-radius: 1em;
+border-color: transparent;
+}
+.mx-button:hover {
+        
+background-color: rgba(40, 131, 216, 0.603);
+box-shadow: 0 0 20px rgba(151, 151, 151, 0.801) !important;
+border-radius: 1em;
+border-color: transparent;
+}
+
+};
+
+
